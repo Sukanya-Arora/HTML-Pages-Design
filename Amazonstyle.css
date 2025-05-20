@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 383.6;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+/* box2 */
+.first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 18px;
+}
+
+/* .location {
+    width: 100px;
+} */
+
+.second {
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.location2 {
+    display: flex;
+    color: #FFFFFF;
+}
+
+/* box3 */
+.searchbar {
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: red;
+    width: 775px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.searchselect {
+    background-color: #FFFFFF;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    background-color: rgb(255, 149, 0);
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+     border: none;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+
+/* box 4 */
+.language {
+    width: 80px;
+    height: 50px;
+    color: #d6d6d6;
+    display: flex;
+    align-items: center;
+}
+
+.set {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* box 5 */
+span {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.account-details {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.details {
+    font-size: 0.85rem;
+    font-weight: 780;
+}
+
+
+/* box 6 */
+.return-orders {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.r-o {
+    font-size: 0.85rem;
+    font-weight: 780;
+}
+
+/* box 7 */
+.cart {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+}
+
+.cartset {
+    margin-left: 3px;
+}
+
+/* offers box */
+.offers {
+    display: flex;
+    background-color: #222f3d;
+    height: 45px;
+    align-items: center;
+}
+
+span {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* new box */
+.hero-section {
+    background-image: url(heroimage.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: #F5F6F6;
+    color: #0F1111;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/* shop section */
+.shopsection {
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    /* border: 2px solid black;     */
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.Type {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between ;
+}
+
+.type2 {
+    height: 130px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.Type p {
+    margin-top: 10px;
+}
+
+
+
+/* footer box1 */
+.forSignin {
+    /* background-color: red; */
+    margin-top: 15px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.signContent {
+    color: #000000;
+}
+
+.outerbutton {
+    width: 230px;
+    height: 28px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 630px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px yellow solid;
+    border-radius: 6px;
+}
+
+.innerbutton {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signContent p2 {
+    color: #007185;
+}
+
+/* footerbox2 */
+.aboutamazon {
+    width:100%;
+    height: 995.800px;
+    background-color: #232f3e;
+    margin-top: 15px;
+}
+
+.text {
+    color: #FFFFFF;
+    width: 100%;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2c3c4f;
+}
+
+.makeBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text1 {
+    width: 136px;
+    height: 318px;
+    margin-top: 50px;
+}
+
+.text1 h4 {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.text1 p{
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forLine {
+    width: 100%;
+    height: 0.1px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+.settings {
+    margin-top: 15px;
+}
+
+.logoImage {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.bs {
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+    height: 100px;
+}
+
+.buttonSettings {
+    width: 116px;
+    height: 33px;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.makebox2 {
+    padding: 30px 0px;
+    background-color: #131A22;
+    margin-top: 40px;
+    width:100%;
+    height: 100%;
+}
+
+.text2 {
+    margin-top: 2px;
+    margin-left: 200px;
+    margin-right:200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t {
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.t h6{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.t p {
+    color: #999999;
+    font-size: 12px;
+}
+
+.extralines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dddddd;
+    margin-top: 50px;
+}
+
+.extralines p {
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.extralines2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.extralines2 p {
+    margin-left: 5px;
+}
